@@ -77,7 +77,7 @@ useEffect(() => {
         <div className="flex items-center justify-between flex-wrap gap-4">
           <div className="flex items-center gap-5">
             <img
-              src={user.profileImage ? `http://localhost:5000${user.profileImage}` : "/default-avatar.png"}
+              src={user.profileImage ? `http://localhost:5000${user.profileImage}` : "/images/user/owner.jpg"}
               alt={user.fullName}
               className="w-16 h-16 rounded-full object-cover border border-gray-300"
             />
